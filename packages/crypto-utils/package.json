@@ -1,6 +1,6 @@
 {
-  "name": "encryption-utils",
-  "version": "1.0.0",
+  "name": "pedro-testing-encryption-utils",
+  "version": "1.0.1",
   "description": "Skedway private encryption utilities",
   "main": "dist/index.js",
   "scripts": {
