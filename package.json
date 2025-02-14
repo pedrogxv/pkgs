@@ -1,0 +1,25 @@
+{
+  "name": "skedway-core",
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces --if-present",
+    "ci": "npm run build && npm run check-format",
+    "format": "prettier --write .",
+    "check-format": "prettier --check .",
+    "check-exports": "npm run check-exports --workspaces --if-present",
+    "local-release": "changeset version && changeset publish",
+    "prepublishOnly": "npm run ci"
+  },
+  "devDependencies": {
+    "@changesets/cli": "^2.27.12",
+    "prettier": "^3.5.1",
+    "vitest": "^3.0.5"
+  },
+  "dependencies": {
+    "@arethetypeswrong/cli": "^0.17.3"
+  },
+  "license": "UNLICENSED"
+}

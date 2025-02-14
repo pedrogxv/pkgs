@@ -1,0 +1,5 @@
+node_modules/
+dist/
+
+# ignore tarballs that can be generated when packing package
+*.tgz

@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "Preserve",
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "es2017",
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "esModuleInterop": true,
+    "noEmit": true
+  },
+  "watchOptions": {
+    "watchFile": "fixedPollingInterval"
+  }
+}
